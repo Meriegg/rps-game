@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <p id="score"></p>
+
+    <div id="root"></div>
+
+    <div class="game-section" id="main-screen">
+      <div>
+        <h1>Rock Paper Scissors</h1>
+        <p>by <a href="https://mariodev.netlify.app">Mario</a></p>
+      </div>
+      <p id="start-game">Start</p>
+    </div>
+
+    <div class="game-section" id="make-choice">
+      <h1>Make A Choice!</h1>
+      <div class="game-choice-container">
+        <div class="game-choice" id="rock">
+          <img src="./assets/stone.png" alt="" />
+          <div id="game-choice-display"><p>rock</p></div>
+        </div>
+        <div class="game-choice" id="paper">
+          <img src="./assets/paper.png" alt="" />
+          <div id="game-choice-display"><p>paper</p></div>
+        </div>
+        <div class="game-choice" id="scissors">
+          <img src="./assets/scissors.png" alt="" />
+          <div id="game-choice-display"><p>scissors</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-section" id="outcome-display">
+      <h1 id="outcome"></h1>
+      <p id="start-game">Play again!</p>
+      <p id="to-home" style="cursor: pointer">Home</p>
+    </div>
+
+    <footer>
+      <a href="https://www.flaticon.com/free-icons/rock" title="rock icons"
+        >Rock icons created by Icongeek26 - Flaticon</a
+      >
+      <a
+        href="https://www.flaticon.com/free-icons/scissors"
+        title="scissors icons"
+        >Scissors icons created by Webalys - Flaticon</a
+      >
+      <a href="https://www.flaticon.com/free-icons/paper" title="paper icons"
+        >Paper icons created by Freepik - Flaticon</a
+      >
+    </footer>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>
